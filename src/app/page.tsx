@@ -155,7 +155,8 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "Tech Solutions Corp",        "Global Innovate Ltd.",        "Venture Capital Group",        "Dynamic Media House",        "Future Health Inc.",        "Aqua Logistics",        "Horizon Energy",        "Apex Technologies",        "Synergy Partners"]}
+        "NFL",        "Yankees",        "Orlando Magic",        "March Madness",        "NCAA college football",        "Westwood One",        "Indy Car",        "WNBA",        "Tech Solutions Corp",        "Global Innovate Ltd.",        "Venture Capital Group",        "Dynamic Media House",        "Future Health Inc.",        "Aqua Logistics",        "Horizon Energy",        "Apex Technologies",        "Synergy Partners"
+      ]}
       title="Trusted by Industry Leaders"
       description="Our diverse portfolio of clients spans various sectors, united by a common goal: to communicate effectively and achieve lasting success through strategic partnerships."
       tag="Our Esteemed Partners"
