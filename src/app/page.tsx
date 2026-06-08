@@ -170,21 +170,21 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "1",          title: "Revolutionary Communication Strategy",          quote: "Genesis Communications Inc transformed our outreach. Their strategic insights and execution have been nothing short of revolutionary, significantly boosting our brand's presence.",          name: "Sarah Johnson",          role: "CEO, TechCorp",          imageSrc: "http://img.b2bpic.net/free-photo/businessman-solving-startup-problems-with-laptop-archived-documents-looking-annual-statistics-report-find-issue-young-analyst-reviewing-papers-executive-strategy-plan_482257-65811.jpg",          imageAlt: "professional female CEO headshot"},
+          id: "1",          title: "Game-Changing Media Strategy",          quote: "Genesis Communications inc redefined our sports media presence. Their innovative strategies brought our team's story to a global audience, driving unprecedented fan engagement.",          name: "Coach Alex 'The Tactician' Stone",          role: "Head Coach, National Basketball Team",          imageSrc: "http://img.b2bpic.net/free-photo/businessman-solving-startup-problems-with-laptop-archived-documents-looking-annual-statistics-report-find-issue-young-analyst-reviewing-papers-executive-strategy-plan_482257-65811.jpg",          imageAlt: "basketball coach headshot"},
         {
-          id: "2",          title: "Unmatched Expertise in Digital Engagement",          quote: "The team at Genesis is truly exceptional. Their deep understanding of digital engagement and ability to craft compelling content has driven incredible results for us.",          name: "Michael Chen",          role: "CTO, InnovateLab",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-fashion-businessman-model-dressed-elegant-blue-suit-with-glasses_158538-4406.jpg",          imageAlt: "male CTO professional portrait"},
+          id: "2",          title: "Unlocking Athlete Potential",          quote: "With Genesis, my personal brand transcended the field. Their media relations expertise connected me with key platforms, allowing me to share my journey and inspire millions.",          name: "Mia 'The Goalscorer' Rodriguez",          role: "Professional Footballer",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-fashion-businessman-model-dressed-elegant-blue-suit-with-glasses_158538-4406.jpg",          imageAlt: "female footballer professional portrait"},
         {
-          id: "3",          title: "A Partner That Delivers",          quote: "Working with Genesis Communications has been a game-changer. They are a reliable partner who consistently delivers high-quality work and tangible improvements to our communication.",          name: "Emily Rodriguez",          role: "Marketing Director, GrowthCo",          imageSrc: "http://img.b2bpic.net/free-photo/smiley-young-man-holding-tablet-mock-up_23-2148326968.jpg",          imageAlt: "marketing director female energetic"},
+          id: "3",          title: "Seamless Event Coverage & PR",          quote: "Our major sporting event garnered massive media attention thanks to Genesis. Their PR team handled everything flawlessly, from press releases to on-site media management.",          name: "David 'The Visionary' Chen",          role: "Event Director, Global Sports League",          imageSrc: "http://img.b2bpic.net/free-photo/smiley-young-man-holding-tablet-mock-up_23-2148326968.jpg",          imageAlt: "event director male energetic"},
         {
-          id: "4",          title: "Innovative and Results-Oriented",          quote: "Genesis brings an innovative approach to every project. Their strategies are fresh, impactful, and always focused on achieving clear, measurable outcomes.",          name: "David Kim",          role: "Product Manager, StartupXYZ",          imageSrc: "http://img.b2bpic.net/free-photo/middle-eastern-businessman-does-daily-tasks-corporate-job_482257-116713.jpg",          imageAlt: "product manager male thoughtful"},
+          id: "4",          title: "Strategic Partnership Catalyst",          quote: "Genesis played a crucial role in securing our latest broadcast partnership. Their understanding of the sports media landscape is unparalleled, delivering true value.",          name: "Emily 'The Negotiator' Kim",          role: "Partnerships Lead, Sports Network",          imageSrc: "http://img.b2bpic.net/free-photo/middle-eastern-businessman-does-daily-tasks-corporate-job_482257-116713.jpg",          imageAlt: "partnerships lead female thoughtful"},
         {
-          id: "5",          title: "Exceptional Support and Guidance",          quote: "Beyond their outstanding results, Genesis Communications Inc provides unparalleled support and expert guidance, making every step of the process seamless and collaborative.",          name: "Jessica Lee",          role: "Head of PR, Global Brands",          imageSrc: "http://img.b2bpic.net/free-photo/modern-female-sitting-couch_23-2148415753.jpg",          imageAlt: "head of PR female portrait"},
+          id: "5",          title: "Crisis Management in High Stakes",          quote: "When unexpected challenges arose, Genesis provided swift, expert guidance. Their crisis communication strategy protected our league's integrity and maintained public trust.",          name: "Robert 'The Commissioner' Jones",          role: "Commissioner, Pro Gaming Circuit",          imageSrc: "http://img.b2bpic.net/free-photo/modern-female-sitting-couch_23-2148415753.jpg",          imageAlt: "commissioner male portrait"},
         {
-          id: "6",          title: "Strategic Vision and Execution",          quote: "Their strategic vision coupled with flawless execution sets Genesis apart. They understood our complex needs and delivered a communication plan that truly resonated.",          name: "Robert Davis",          role: "Senior Consultant, CorporateEdge",          imageSrc: "http://img.b2bpic.net/free-photo/senior-businessman-outside-modern-office-building_1139-1076.jpg",          imageAlt: "senior consultant male experienced"},
+          id: "6",          title: "Innovative Fan Engagement Campaigns",          quote: "Our fan base has never been more engaged. Genesis's innovative campaigns created an electrifying connection between our team and our supporters, on and off the digital arena.",          name: "Jessica 'The Strategist' Lee",          role: "Marketing VP, Esports Organization",          imageSrc: "http://img.b2bpic.net/free-photo/senior-businessman-outside-modern-office-building_1139-1076.jpg",          imageAlt: "marketing VP female experienced"},
       ]}
-      title="What Our Clients Say About Us"
-      description="Hear directly from the businesses we've helped transform their communication strategies and achieve remarkable growth in competitive markets."
-      tag="Client Success Stories"
+      title="Champions' Voices: Our Partners Speak"
+      description="Hear from leading sports organizations, athletes, and media partners on how Genesis Communications amplifies their message and elevates their brand in the competitive world of sports."
+      tag="Our Sporting Success Stories"
       tagIcon={MessageCircle}
       tagAnimation="slide-up"
     />
@@ -196,17 +196,19 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "1",          title: "What types of businesses do you work with?",          content: "We partner with a diverse range of businesses, from burgeoning startups to established enterprises, across various industries seeking to enhance their communication strategies."},
+          id: "1",          title: "What types of sports organizations do you work with?",          content: "We partner with a wide array of sports entities, including professional teams, leagues, individual athletes, sports media outlets, event organizers, and brands within the sports industry."},
         {
-          id: "2",          title: "How do you measure the success of your communication strategies?",          content: "We utilize a blend of quantitative and qualitative metrics, including audience reach, engagement rates, sentiment analysis, lead generation, and brand perception shifts, tailored to your specific goals."},
+          id: "2",          title: "How do you secure media coverage for athletes and teams?",          content: "Our approach involves leveraging strong relationships with top-tier sports journalists, broadcasters, and digital platforms. We craft compelling narratives, provide exclusive access, and manage proactive pitching to ensure maximum visibility."},
         {
-          id: "3",          title: "What is your approach to crisis communication?",          content: "Our crisis communication approach is proactive and responsive. We develop robust plans, offer real-time monitoring, and provide swift, strategic guidance to manage narratives and mitigate reputational risks effectively."},
+          id: "3",          title: "Can you help with athlete brand building and endorsement opportunities?",          content: "Yes, we specialize in enhancing athlete personal brands. We develop strategic content, manage social media presence, and connect athletes with relevant endorsement opportunities that align with their values and career goals."},
         {
-          id: "4",          title: "Can you integrate with our existing marketing team?",          content: "Absolutely. We pride ourselves on collaborative partnerships. Our services are designed to complement and empower your in-house team, ensuring seamless integration and shared success."},
+          id: "4",          title: "What is your process for managing sports event PR?",          content: "For sports events, we handle all aspects of media relations, including press kit development, media accreditation, on-site press room management, interview coordination, and real-time news distribution to generate widespread coverage."},
+        {
+          id: "5",          title: "How do you facilitate partnerships within the sports industry?",          content: "We identify synergistic opportunities between brands, teams, and media. Our team brokers deals, manages negotiations, and develops integrated communication plans to ensure successful, mutually beneficial partnerships that drive growth and exposure."},
       ]}
-      title="Frequently Asked Questions"
-      description="Got questions about our services, process, or how we can help your business thrive? Find quick answers here, or reach out to our team for personalized assistance."
-      tag="Instant Answers"
+      title="Frequently Asked Questions: Sports Media & Partnerships"
+      description="Got questions about our specialized sports communication services, media outreach, or how we forge successful partnerships? Find quick answers here, or reach out to our team for a tailored discussion."
+      tag="Sports Communication Q&A"
       tagIcon={HelpCircle}
       tagAnimation="slide-up"
       faqsAnimation="slide-up"
@@ -218,14 +220,14 @@ export default function LandingPage() {
       useInvertedBackground={true}
       background={{
         variant: "sparkles-gradient"}}
-      tag="Connect With Us"
+      tag="Partner with Genesis Sports"
       tagIcon={Phone}
       tagAnimation="slide-up"
-      title="Ready to Transform Your Communication?"
-      description="Let's discuss how Genesis Communications Inc can empower your brand with cutting-edge strategies and impactful messaging. Reach out today for a personalized consultation and take the first step towards amplified success."
+      title="Elevate Your Game: Sports Media & Partnerships"
+      description="Ready to make headlines, attract key sponsors, or amplify your sports brand? Genesis Communications Inc specializes in strategic sports media relations and forging powerful partnerships. Connect with our expert team for a winning strategy."
       buttons={[
         {
-          text: "Get in Touch"},
+          text: "Inquire About Sports Partnerships"},
       ]}
       buttonAnimation="slide-up"
     />
@@ -240,13 +242,13 @@ export default function LandingPage() {
         {
           title: "Solutions",          items: [
             {
-              label: "Digital Strategy",              href: "#services"},
+              label: "Sports Digital Strategy",              href: "#services"},
             {
-              label: "Content Creation",              href: "#services"},
+              label: "Athlete Content Creation",              href: "#services"},
             {
-              label: "Media Relations",              href: "#services"},
+              label: "Sports Media Relations",              href: "#services"},
             {
-              label: "Crisis Management",              href: "#services"},
+              label: "Event Crisis Management",              href: "#services"},
           ],
         },
         {
