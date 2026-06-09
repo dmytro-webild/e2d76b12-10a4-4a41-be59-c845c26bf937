@@ -203,7 +203,7 @@ export default function LandingPage() {
         {
           id: "3",          title: "Can you help with athlete brand building and endorsement opportunities?",          content: "Yes, we specialize in enhancing athlete personal brands. We develop strategic content, manage social media presence, and connect athletes with relevant endorsement opportunities that align with their values and career goals."},
         {
-          id: "4",          title: "What is your process for managing sports event PR?",          content: "For sports events, we handle all aspects of media relations, including press kit development, media accreditation, on-site press room management, interview coordination, and real-time news distribution to generate widespread coverage."},
+          id: "4",          title: "What is your new coverage",          content: "For sports events, we handle all aspects of media relations, including press kit development, media accreditation, on-site press room management, interview coordination, and real-time news distribution to generate widespread coverage."},
         {
           id: "5",          title: "How do you facilitate partnerships within the sports industry?",          content: "We identify synergistic opportunities between brands, teams, and media. Our team brokers deals, manages negotiations, and develops integrated communication plans to ensure successful, mutually beneficial partnerships that drive growth and exposure."},
       ]}
