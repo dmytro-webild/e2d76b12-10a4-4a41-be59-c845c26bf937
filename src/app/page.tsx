@@ -131,7 +131,7 @@ export default function LandingPage() {
       metrics={[
         {
           id: "1",          icon: Users,
-          title: "Audience Reach Growth",          value: "6000000"},
+          title: "Audience Reach Growth",          value: "6mil "},
         {
           id: "2",          icon: MessageCircle,
           title: "Add Partners Satisfaction ",          value: "95%"},
