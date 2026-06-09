@@ -134,7 +134,7 @@ export default function LandingPage() {
           title: "Audience Reach Growth",          value: "6.5 mil"},
         {
           id: "2",          icon: MessageCircle,
-          title: "Add Partners Satisfaction ",          value: "+45%"},
+          title: "Add Partners Satisfaction ",          value: "100%"},
         {
           id: "3",          icon: Award,
           title: "Client Satisfaction Score",          value: "98%"},
