@@ -140,7 +140,7 @@ export default function LandingPage() {
           title: "Audience Satisfaction",          value: "98%"},
         {
           id: "4",          icon: Globe,
-          title: "Conversion Rate ",          value: "12 Countries"},
+          title: "Conversion Rate ",          value: "130%"},
       ]}
       title="Impactful Results, Proven Success"
       description="Our data-driven approach delivers tangible results, helping clients achieve their communication goals and exceed expectations with precision and expertise."
