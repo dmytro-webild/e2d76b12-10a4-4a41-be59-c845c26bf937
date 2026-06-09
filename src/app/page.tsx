@@ -137,7 +137,7 @@ export default function LandingPage() {
           title: "Add Partners Satisfaction ",          value: "100%"},
         {
           id: "3",          icon: Award,
-          title: "Client Satisfaction Score",          value: "98%"},
+          title: "Audience Satisfaction",          value: "98%"},
         {
           id: "4",          icon: Globe,
           title: "Market Penetration",          value: "12 Countries"},
