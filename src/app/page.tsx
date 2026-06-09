@@ -75,7 +75,7 @@ export default function LandingPage() {
       buttonAnimation="slide-up"
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-optical-fiber-detail_23-2149182541.jpg",          imageAlt: "futuristic communication network digital"},
+          imageSrc: "https://img.b2bpic.net/premium-photo/man-using-smartphone-voice-assistant_220873-3662.jpg?id=13689064",          imageAlt: "futuristic communication network digital"},
         {
           imageSrc: "http://img.b2bpic.net/free-photo/high-tech-view-futuristic-earth_23-2151100329.jpg",          imageAlt: "holographic interface global data"}
       ]}
@@ -109,9 +109,9 @@ export default function LandingPage() {
         {
           title: "Digital Strategy & Consulting",          description: "Craft bespoke digital communication blueprints tailored to your business objectives, ensuring maximum reach and engagement across all platforms.",          imageSrc: "http://img.b2bpic.net/free-photo/3d-abstract-dots-lines-connected_1048-11946.jpg",          imageAlt: "digital strategy illustration growth"},
         {
-          title: "Content Creation & Marketing",          description: "From captivating narratives to visually stunning multimedia, we produce content that resonates with your audience and elevates your brand story.",          imageSrc: "http://img.b2bpic.net/free-photo/graphic-designer-photographer-collaborate-modern-studio_482257-126778.jpg",          imageAlt: "content creation multi-platform digital"},
+          title: "Content Creation & Marketing",          description: "From captivating narratives to visually stunning multimedia, we produce content that resonates with your audience and elevates your brand story.",          imageSrc: "https://img.b2bpic.net/free-photo/professional-microphone-blurred-background-sound-recording-concept_169016-23810.jpg?id=32293666",          imageAlt: "content creation multi-platform digital"},
         {
-          title: "Media Relations & PR",          description: "Build strong relationships with key media outlets and amplify your message through strategic public relations campaigns that generate positive coverage.",          imageSrc: "http://img.b2bpic.net/free-photo/black-lives-matter-text-top-view_23-2148913872.jpg",          imageAlt: "media relations public relations"},
+          title: "Media Relations & PR",          description: "Build strong relationships with key media outlets and amplify your message through strategic public relations campaigns that generate positive coverage.",          imageSrc: "https://img.b2bpic.net/premium-photo/teamwork-diversity-laptop-discussion-workplace-business-meeting-partnership-planning-men-women-technology-office-collaboration-brainstorming-performance-review_590464-354682.jpg?id=225706208",          imageAlt: "media relations public relations"},
         {
           title: "Crisis Communication Management",          description: "Navigate complex challenges with confidence. Our expert team provides rapid, strategic guidance to protect your reputation and maintain trust during critical times.",          imageSrc: "http://img.b2bpic.net/free-photo/business-analyst-does-presentation-with-project-updates-phone-call_482257-89712.jpg",          imageAlt: "crisis communication management digital"},
       ]}
@@ -171,7 +171,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "1",          title: "Game-Changing Media Strategy",          quote: "Genesis Communications inc redefined our sports media presence. Their innovative strategies brought our team's story to a global audience, driving unprecedented fan engagement.",          name: "Coach Alex 'The Tactician' Stone",          role: "Head Coach, National Basketball Team",          imageSrc: "http://img.b2bpic.net/free-photo/businessman-solving-startup-problems-with-laptop-archived-documents-looking-annual-statistics-report-find-issue-young-analyst-reviewing-papers-executive-strategy-plan_482257-65811.jpg",          imageAlt: "basketball coach headshot"},
+          id: "1",          title: "Game-Changing Media Strategy",          quote: "Genesis Communications inc redefined our sports media presence. Their innovative strategies brought our team's story to a global audience, driving unprecedented fan engagement.",          name: "Coach Alex 'The Tactician' Stone",          role: "Head Coach, National Basketball Team",          imageSrc: "https://img.b2bpic.net/free-photo/american-football-american-football-player-professional-sport-stadium_654080-301.jpg?id=27221872",          imageAlt: "basketball coach headshot"},
         {
           id: "2",          title: "Unlocking Athlete Potential",          quote: "With Genesis, my personal brand transcended the field. Their media relations expertise connected me with key platforms, allowing me to share my journey and inspire millions.",          name: "Mia 'The Goalscorer' Rodriguez",          role: "Professional Footballer",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-fashion-businessman-model-dressed-elegant-blue-suit-with-glasses_158538-4406.jpg",          imageAlt: "female footballer professional portrait"},
         {
@@ -236,7 +236,7 @@ export default function LandingPage() {
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="http://img.b2bpic.net/free-photo/medium-shot-girls-with-smartphone_23-2149334002.jpg"
+      imageSrc="https://img.b2bpic.net/premium-photo/video-editing_926199-2019146.jpg?id=176521385"
       imageAlt="futuristic city skyline night connectivity"
       logoText="Genesis Communications Inc"
       columns={[
