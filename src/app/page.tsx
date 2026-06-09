@@ -155,7 +155,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "NFL",        "Yankees",        "Orlando Magic",        "March Madness",        "NCAA college football",        "National Hurricane Center",        "Indy Car",        "Fox News"
+        "NFL",        "Yankees",        "Orlando Magic",        "March Madness",        "NCAA Football",        "National Hurricane Center",        "Indy Car",        "Fox News"
       ]}
       title="Trusted by Industry Leaders"
       description="Our diverse portfolio of clients spans various sectors, united by a common goal: to communicate effectively and achieve lasting success through strategic partnerships."
