@@ -1,7 +1,7 @@
 "use client";
 
-import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
-import ReactLenis from "lenis/react";
+import { ThemeProvider } from '@/providers/themeProvider/ThemeProvider';
+import ReactLenis from 'lenis/react';
 import ContactCTA from '@/components/sections/contact/ContactCTA';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureCardSeven from '@/components/sections/feature/FeatureCardSeven';
@@ -155,7 +155,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "NFL",        "Yankees",        "Orlando Magic",        "March Madness",        "NCAA Football",        "National Hurricane Center",        "Indy Car",        "Fox News"
+        "NFL",        "Yankees",        "Orlando Magic",        "March Madness",        "NCAA Football", "Westwood One",        "National Hurricane Center",        "Indy Car",        "Fox News"
       ]}
       title="Trusted by Industry Leaders"
       description="Our diverse portfolio of clients spans various sectors, united by a common goal: to communicate effectively and achieve lasting success through strategic partnerships."
