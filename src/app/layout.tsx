@@ -10,7 +10,7 @@ import { Source_Sans_3 } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: "Genesis Communications Inc | Elevate Your Voice with NFL,Yankees,NCAA Football,March Maddess,Orlando Magic,Indy car",
+  title: "Genesis Communications Inc | Elevate Your Voice with NFL,Yankees,NCAA Football, March Maddess,Orlando Magic,Indy Car",
   description: "Genesis Communications Inc offers cutting-edge communication solutions for modern businesses. Connect, engage, and grow with our innovative services.",
   keywords: ["communication, business, technology, solutions, digital, strategy, media, marketing, elevate, connect, engage, grow"],
   openGraph: {
