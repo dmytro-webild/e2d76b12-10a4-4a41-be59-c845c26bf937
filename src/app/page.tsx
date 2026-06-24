@@ -111,9 +111,9 @@ export default function LandingPage() {
         {
           title: "Content Creation & Marketing",          description: "From captivating narratives to visually stunning multimedia, we produce content that resonates with your audience and elevates your brand story.",          imageSrc: "https://img.b2bpic.net/free-photo/professional-microphone-blurred-background-sound-recording-concept_169016-23810.jpg?id=32293666",          imageAlt: "content creation multi-platform digital"},
         {
-          title: "Media Relations & PR",          description: "Build strong relationships with key media outlets and amplify your message through strategic public relations campaigns that generate positive coverage.",          imageSrc: "https://img.b2bpic.net/premium-photo/teamwork-diversity-laptop-discussion-workplace-business-meeting-partnership-planning-men-women-technology-office-collaboration-brainstorming-performance-review_590464-354682.jpg?id=225706208",          imageAlt: "media relations public relations"},
+          title: "Media Relations & PR",          description: "Build strong relationships with key media outlets and amplify your message through strategic public relations campaigns.",          imageSrc: "https://img.b2bpic.net/premium-photo/teamwork-diversity-laptop-discussion-workplace-business-meeting-partnership-planning-men-women-technology-office-collaboration-brainstorming-performance-review_590464-354682.jpg?id=225706208",          imageAlt: "media relations public relations"},
         {
-          title: "Crisis Communication Management",          description: "Navigate complex challenges with confidence. Our expert team provides rapid, strategic guidance to protect your reputation and maintain trust during critical times.",          imageSrc: "http://img.b2bpic.net/free-photo/business-analyst-does-presentation-with-project-updates-phone-call_482257-89712.jpg",          imageAlt: "crisis communication management digital"},
+          title: "Crisis Communication Management",          description: "Navigate complex challenges with confidence. Our expert team provides rapid, strategic guidance.",          imageSrc: "http://img.b2bpic.net/free-photo/business-analyst-does-presentation-with-project-updates-phone-call_482257-89712.jpg",          imageAlt: "crisis communication management digital"},
       ]}
       title="Our Core Communication Services"
       description="Driving innovation across all channels, our solutions are designed to make your message heard, seen, and remembered by the right people, at the right time."
@@ -171,20 +171,20 @@ export default function LandingPage() {
       useInvertedBackground={true}
       testimonials={[
         {
-          id: "1",          title: "Game-Changing Media Strategy",          quote: "Genesis Communications inc redefined our sports media presence. Their innovative strategies brought our team's story to a global audience, driving unprecedented fan engagement.",          name: "Coach Alex 'The Tactician' Stone",          role: "Head Coach, National Basketball Team",          imageSrc: "https://img.b2bpic.net/free-photo/american-football-american-football-player-professional-sport-stadium_654080-301.jpg?id=27221872",          imageAlt: "basketball coach headshot"},
+          id: "1",          title: "Game-Changing Media Strategy",          quote: "Genesis Communications inc redefined our sports media presence.",          name: "Coach Alex 'The Tactician' Stone",          role: "Head Coach",          imageSrc: "https://img.b2bpic.net/free-photo/american-football-american-football-player-professional-sport-stadium_654080-301.jpg?id=27221872",          imageAlt: "basketball coach"},
         {
-          id: "2",          title: "Unlocking Athlete Potential",          quote: "With Genesis, my personal brand transcended the field. Their media relations expertise connected me with key platforms, allowing me to share my journey and inspire millions.",          name: "Mia 'The Goalscorer' Rodriguez",          role: "Professional Footballer",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-fashion-businessman-model-dressed-elegant-blue-suit-with-glasses_158538-4406.jpg",          imageAlt: "female footballer professional portrait"},
+          id: "2",          title: "Unlocking Athlete Potential",          quote: "With Genesis, my personal brand transcended the field.",          name: "Mia 'The Goalscorer' Rodriguez",          role: "Professional Footballer",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-fashion-businessman-model-dressed-elegant-blue-suit-with-glasses_158538-4406.jpg",          imageAlt: "professional portrait"},
         {
-          id: "3",          title: "Seamless Event Coverage & PR",          quote: "Our major sporting event garnered massive media attention thanks to Genesis. Their PR team handled everything flawlessly, from press releases to on-site media management.",          name: "David 'The Visionary' Chen",          role: "Event Director, Global Sports League",          imageSrc: "http://img.b2bpic.net/free-photo/smiley-young-man-holding-tablet-mock-up_23-2148326968.jpg",          imageAlt: "event director male energetic"},
+          id: "3",          title: "Seamless Event Coverage & PR",          quote: "Our major sporting event garnered massive media attention thanks to Genesis.",          name: "David 'The Visionary' Chen",          role: "Event Director",          imageSrc: "http://img.b2bpic.net/free-photo/smiley-young-man-holding-tablet-mock-up_23-2148326968.jpg",          imageAlt: "event director"},
         {
-          id: "4",          title: "Strategic Partnership Catalyst",          quote: "Genesis played a crucial role in securing our latest broadcast partnership. Their understanding of the sports media landscape is unparalleled, delivering true value.",          name: "Emily 'The Negotiator' Kim",          role: "Partnerships Lead, Sports Network",          imageSrc: "http://img.b2bpic.net/free-photo/middle-eastern-businessman-does-daily-tasks-corporate-job_482257-116713.jpg",          imageAlt: "partnerships lead female thoughtful"},
+          id: "4",          title: "Strategic Partnership Catalyst",          quote: "Genesis played a crucial role in securing our latest broadcast partnership.",          name: "Emily 'The Negotiator' Kim",          role: "Partnerships Lead",          imageSrc: "http://img.b2bpic.net/free-photo/middle-eastern-businessman-does-daily-tasks-corporate-job_482257-116713.jpg",          imageAlt: "partnerships lead"},
         {
-          id: "5",          title: "Crisis Management in High Stakes",          quote: "When unexpected challenges arose, Genesis provided swift, expert guidance. Their crisis communication strategy protected our league's integrity and maintained public trust.",          name: "Robert 'The Commissioner' Jones",          role: "Commissioner, Pro Gaming Circuit",          imageSrc: "http://img.b2bpic.net/free-photo/modern-female-sitting-couch_23-2148415753.jpg",          imageAlt: "commissioner male portrait"},
+          id: "5",          title: "Crisis Management in High Stakes",          quote: "When unexpected challenges arose, Genesis provided swift, expert guidance.",          name: "Robert 'The Commissioner' Jones",          role: "Commissioner",          imageSrc: "http://img.b2bpic.net/free-photo/modern-female-sitting-couch_23-2148415753.jpg",          imageAlt: "commissioner portrait"},
         {
-          id: "6",          title: "Innovative Fan Engagement Campaigns",          quote: "Our fan base has never been more engaged. Genesis's innovative campaigns created an electrifying connection between our team and our supporters, on and off the digital arena.",          name: "Jessica 'The Strategist' Lee",          role: "Marketing VP, Esports Organization",          imageSrc: "http://img.b2bpic.net/free-photo/senior-businessman-outside-modern-office-building_1139-1076.jpg",          imageAlt: "marketing VP female experienced"},
+          id: "6",          title: "Innovative Fan Engagement Campaigns",          quote: "Our fan base has never been more engaged.",          name: "Jessica 'The Strategist' Lee",          role: "Marketing VP",          imageSrc: "http://img.b2bpic.net/free-photo/senior-businessman-outside-modern-office-building_1139-1076.jpg",          imageAlt: "marketing VP"},
       ]}
       title="Champions' Voices: Our Partners Speak"
-      description="Hear from leading sports organizations, athletes, and media partners on how Genesis Communications amplifies their message and elevates their brand in the competitive world of sports."
+      description="Hear from leading sports organizations, athletes, and media partners."
       tag="Our Sporting Success Stories"
       tagIcon={MessageCircle}
       tagAnimation="slide-up"
@@ -197,18 +197,18 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "1",          title: "What types of sports organizations do you work with?",          content: "We partner with a wide array of sports entities, including professional teams, leagues, individual athletes, sports media outlets, event organizers, and brands within the sports industry."},
+          id: "1",          title: "What types of sports organizations do you work with?",          content: "We partner with a wide array of sports entities, including professional teams, leagues, and individual athletes."},
         {
-          id: "2",          title: "How do you secure media coverage for athletes and teams?",          content: "Our approach involves leveraging strong relationships with top-tier sports journalists, broadcasters, and digital platforms. We craft compelling narratives, provide exclusive access, and manage proactive pitching to ensure maximum visibility."},
+          id: "2",          title: "How do you secure media coverage?",          content: "Our approach involves leveraging strong relationships with top-tier sports journalists."},
         {
-          id: "3",          title: "Can you help with athlete brand building and endorsement opportunities?",          content: "Yes, we specialize in enhancing athlete personal brands. We develop strategic content, manage social media presence, and connect athletes with relevant endorsement opportunities that align with their values and career goals."},
+          id: "3",          title: "Can you help with athlete brand building?",          content: "Yes, we specialize in enhancing athlete personal brands."},
         {
-          id: "4",          title: "What is your new coverage",          content: "Our talent covers all local, state, national, and international news. Your company can be branded alongside these live reports. "},
+          id: "4",          title: "What is your new coverage",          content: "Our talent covers all local, state, national, and international news."},
         {
-          id: "5",          title: "How do you facilitate partnerships within the sports industry?",          content: "We identify synergistic opportunities between brands, teams, and media. Our team brokers deals, manages negotiations, and develops integrated communication plans to ensure successful, mutually beneficial partnerships that drive growth and exposure."},
+          id: "5",          title: "How do you facilitate partnerships?",          content: "We identify synergistic opportunities between brands, teams, and media."},
       ]}
-      title="Frequently Asked Questions: Sports Media & Partnerships"
-      description="Got questions about our specialized sports communication services, media outreach, or how we forge successful partnerships? Find quick answers here, or reach out to our team for a tailored discussion."
+      title="Frequently Asked Questions"
+      description="Find quick answers here, or reach out to our team."
       tag="Sports Communication Q&A"
       tagIcon={HelpCircle}
       tagAnimation="slide-up"
@@ -224,8 +224,8 @@ export default function LandingPage() {
       tag="Partner with Genesis Sports"
       tagIcon={Phone}
       tagAnimation="slide-up"
-      title="Elevate Your Game: Sports Media & Partnerships"
-      description="Ready to make headlines, attract key sponsors, or amplify your sports brand? Genesis Communications Inc specializes in strategic sports media relations and forging powerful partnerships. Connect with our expert team for a winning strategy."
+      title="Elevate Your Game"
+      description="Ready to make headlines, attract key sponsors, or amplify your sports brand? Connect with our expert team for a winning strategy."
       buttons={[
         {
           text: "Inquire About Sports Partnerships"},
@@ -242,42 +242,33 @@ export default function LandingPage() {
       columns={[
         {
           title: "Solutions",          items: [
-            {
-              label: "Sports Digital Strategy",              href: "#services"},
-            {
-              label: "Athlete Content Creation",              href: "#services"},
-            {
-              label: "Sports Media Relations",              href: "#services"},
-            {
-              label: "Event Crisis Management",              href: "#services"},
+            { label: "Sports Digital Strategy", href: "#services" },
+            { label: "Athlete Content Creation", href: "#services" },
+            { label: "Sports Media Relations", href: "#services" },
+            { label: "Event Crisis Management", href: "#services" },
           ],
         },
         {
           title: "Company",          items: [
-            {
-              label: "About Us",              href: "#about"},
-            {
-              label: "Our Impact",              href: "#impact"},
-            {
-              label: "Clients",              href: "#clients"},
-            {
-              label: "Testimonials",              href: "#testimonials"},
+            { label: "About Us", href: "#about" },
+            { label: "Our Impact", href: "#impact" },
+            { label: "Clients", href: "#clients" },
+            { label: "Testimonials", href: "#testimonials" },
           ],
         },
         {
           title: "Support",          items: [
-            {
-              label: "FAQ",              href: "#faq"},
-            {
-              label: "Contact Us",              href: "#contact"},
-            {
-              label: "Privacy Policy",              href: "#"},
-            {
-              label: "Terms of Service",              href: "#"},
+            { label: "FAQ", href: "#faq" },
+            { label: "Contact Us", href: "#contact" },
           ],
         },
       ]}
       copyrightText="© 2024 Genesis Communications Inc. All rights reserved."
+    />
+    <script
+      dangerouslySetInnerHTML={{
+        __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://widgets.leadconnectorhq.com/chat-widget/loader.js';j.setAttribute('data-widget-id', '6a3450aece10212d7a7f9467');j.setAttribute('data-source', 'WEB_USER');f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-XXXXXX');`,
+      }}
     />
   </div>
       </ReactLenis>
