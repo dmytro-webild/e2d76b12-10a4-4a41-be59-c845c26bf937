@@ -9,10 +9,10 @@ import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
 import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
-import NavbarFloating from '@/components/ui/NavbarFloating';
+import NavbarFloatingLogo from '@/components/ui/NavbarFloatingLogo';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardTen from '@/components/sections/testimonial/TestimonialCardTen';
-import { Award, Globe, HelpCircle, MessageCircle, Phone, Sparkles, Star, Users, Zap } from "lucide-react";
+import { Award, Globe, HelpCircle, MessageCircle, Phone, Shield, Sparkles, Star, Users, Zap } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -30,7 +30,7 @@ export default function LandingPage() {
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
-      <NavbarFloating
+      <NavbarFloatingLogo
       logo="Genesis Communications Inc"
       navItems={[
         { name: "Home", href: "#home" },
