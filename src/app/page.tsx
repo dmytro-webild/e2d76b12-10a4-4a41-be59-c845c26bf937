@@ -2,18 +2,17 @@
 
 import { ThemeProvider } from '@/providers/themeProvider/ThemeProvider';
 import ReactLenis from 'lenis/react';
-import ContactCTA from '@/components/sections/contact/ContactCTA';
+import { ContactSplitFormParallax } from '@/components/sections/contact/ContactSplitFormParallax';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureCardSeven from '@/components/sections/feature/FeatureCardSeven';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroSplitDualMedia from '@/components/sections/hero/HeroSplitDualMedia';
 import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
 import MetricCardThree from '@/components/sections/metrics/MetricCardThree';
-import NavbarFloatingLogo from '@/components/ui/NavbarFloatingLogo';
+import NavbarFullscreen from '@/components/ui/NavbarFullscreen';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardTen from '@/components/sections/testimonial/TestimonialCardTen';
 import { Award, Globe, HelpCircle, MessageCircle, Phone, Shield, Sparkles, Star, Users, Zap } from "lucide-react";
-import { ContactCta } from '@/components/sections/contact/ContactCta';
 
 export default function LandingPage() {
   return (
@@ -31,7 +30,7 @@ export default function LandingPage() {
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
-      <NavbarFloatingLogo
+      <NavbarFullscreen
       logo="Genesis Communications Inc"
       navItems={[
         { name: "Home", href: "#home" },
@@ -164,11 +163,17 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactCta
+      <ContactSplitFormParallax
       tag="Get In Touch"
-      text="To get started, please fill out your name, contact information, and ensure you review our <a href='/privacy' class='underline'>Privacy Policy</a> and <a href='/terms' class='underline'>Terms & Conditions</a>. By checking the boxes below, you consent to receive SMS communications regarding your inquiry."
-      primaryButton={{ text: "Submit Inquiry", href: "#" }}
-      secondaryButton={{ text: "Need Help?", href: "#" }}
+      title="We're Ready to Listen"
+      description="Please fill out the form below and our team will get back to you shortly."
+      inputs={[
+          { name: "name", type: "text", placeholder: "Full Name", required: true },
+          { name: "email", type: "email", placeholder: "Email", required: true }
+      ]}
+      textarea={{ name: "message", placeholder: "Your message here", rows: 4 }}
+      buttonText="Send"
+      ctaLinks={[{ icon: Phone, label: "Call Us" }, { icon: MessageCircle, label: "Chat Now" }]}
     />
   </div>
 
