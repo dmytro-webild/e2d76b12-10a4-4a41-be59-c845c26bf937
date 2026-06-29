@@ -13,6 +13,7 @@ import NavbarFloatingLogo from '@/components/ui/NavbarFloatingLogo';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardTen from '@/components/sections/testimonial/TestimonialCardTen';
 import { Award, Globe, HelpCircle, MessageCircle, Phone, Shield, Sparkles, Star, Users, Zap } from "lucide-react";
+import { ContactCta } from '@/components/sections/contact/ContactCta';
 
 export default function LandingPage() {
   return (
@@ -163,16 +164,11 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactCTA
-      useInvertedBackground={true}
-      background={{ variant: "sparkles-gradient" }}
-      tag="Partner with Genesis"
-      tagIcon={Phone}
-      tagAnimation="slide-up"
-      title="Elevate Your Game"
-      description="Ready to make headlines?"
-      buttons={[{ text: "Inquire Now", href: "#contact" }]}
-      buttonAnimation="slide-up"
+      <ContactCta
+      tag="Get In Touch"
+      text="To get started, please fill out your name, contact information, and ensure you review our <a href='/privacy' class='underline'>Privacy Policy</a> and <a href='/terms' class='underline'>Terms & Conditions</a>. By checking the boxes below, you consent to receive SMS communications regarding your inquiry."
+      primaryButton={{ text: "Submit Inquiry", href: "#" }}
+      secondaryButton={{ text: "Need Help?", href: "#" }}
     />
   </div>
 
